@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tambah data siswa</h1>
+    <p>Isikan semua data dengan benar, lalu tekan simpan</p>
+
+    <form action="">
+        <table cellpadding="2">
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="kotaLahir">Kot lahir</label></td>
+                <td>
+                    <select name="kotaLahir" id="KotaLahir" >
+
+                        <option value="">Pilih Kota</option>
+                        <option value="surabaya">surabaya</option>
+                        <option value="kalimantan">kalimantan</option>
+                        <option value="jawa">jawa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Tanggal Lahir</label></td>
+                <td><input type="date" name="tanggalLahir"></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>
+                    <input type="radio">Islam
+                    <input type="radio">Kristen
+                    <input type="radio">Katholik
+                    <input type="radio">Hindu
+                    <input type="radio">Konghucu
+                </td>
+            </tr>
+            <tr>
+                <td>Foto</td>
+                <td><input type="file"></td>
+            </tr>
+            
+            <tr>
+                <td colspan="5"><button type="submit">Simpan</button></td>
+                <td>
+                    <a href="index.html">
+                        <button type="button">Kembali</button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
